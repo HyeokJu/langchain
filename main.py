@@ -1,6 +1,8 @@
 import streamlit as st
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
+
+
 chat_model = ChatOpenAI()
 
 st.title('인공지능 시인')
